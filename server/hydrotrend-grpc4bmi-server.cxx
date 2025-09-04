@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
         printf("%s\n", model_name);
     }
 
+    run_bmi_server(model, argc, argv);
+
     free(model);
     return 0;
 }

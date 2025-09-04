@@ -20,3 +20,6 @@ RUN cmake .. -DCMAKE_INSTALL_PREFIX=${CONDA_DIR} && \
     make clean
 
 WORKDIR /opt
+
+ENTRYPOINT ["/opt/conda/bin/hydrotrend-grpc4bmi-server"]
+EXPOSE 55555
