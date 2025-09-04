@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "bmi_hydrotrend.h"
+#include "hydrotrend/bmi_hydrotrend.h"
 #include "bmi_grpc_server.h"
 
 
